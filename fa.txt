@@ -1,0 +1,63 @@
+﻿clauses
+    person("Ira", female).
+    person("Adam", male).
+    person("Eva", female).
+    person("James", male).
+    person("Mimi", female).
+    person("Eriq", male).
+    person("Laura", female).
+    person("Jack", male).
+    person("Megan", female).
+    person("Delphi", male).
+    person("Sherry", female).
+    person("John", male).
+    person("Sandy", female).
+    person("Malik", male).
+    person("Carol", female).
+    person("Paul", male).
+    person("Lydia", female).
+    person("David", male).
+    person("Gloria", female).
+    person("William", male).
+    person("Yulianna", female).
+    person("Steven", male).
+    person("Christina", female).
+    person("George", male).
+    person("Mark", male).
+
+    parent("James","Henry").
+    parent("James","Ira").
+    parent("Eriq","Henry").
+    parent("Eriq","Ira").
+    parent("Megan","Henry").
+    parent("Megan","Ira").
+    parent("Jack","Adam").
+    parent("Jack","Eve").
+    parent("Delphi","Adam").
+    parent("Delphi","Eve").
+    parent("Sandy","Adam").
+    parent("Sandy","Eve").
+    parent("Malik","Mimi").
+    parent("Malik","Eriq").
+    parent("Carol","Laura").
+    parent("Carol","Eriq").
+    parent("Paul","Megan").
+    parent("Paul","Jack").
+    parent("Lydia","Megan").
+    parent("Lydia","Jack").
+    parent("David","Sherry").
+    parent("David","Jack").
+    parent("William","Sandy").
+    parent("William","John").
+    parent("Yulianna","Malik").
+    parent("Yulianna","Lydia").
+    parent("Steven","Carol").
+    parent("Steven","David").
+    parent("Christina","Gloria").
+    parent("Christina","David").
+    parent("George","Gloria").
+    parent("George","William").
+    parent("Mark","Gloria").
+    parent("Mark","William").
+
+
